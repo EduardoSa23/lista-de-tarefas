@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    align-items: center; 
+    gap: 15px; 
+    justify-content: center;
+    text-transform: uppercase;
+    border-bottom: 10px solid #1b1533;
+    margin-top: 20px;
+    color: #1b1533;
+    
+}
+
+button {
+    background-color: #1b1533;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #F0F0AD;
+    cursor: pointer;
+}
+
+input, 
+button {
+    padding: 8px;
+}
+
+input {
+    background-color: #F0F0AD;
+    color: #1b1533;
+}
+
+body {
+    background-color: #F0F0AD;
+}
+
+form {
+   padding: 24px;
+   display: none;
+   text-align: center;
+}
+
+form input {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+ul {
+    padding: 24px;
+    display: flex;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center;
+    flex-direction: column; /* Mantém os <li> empilhados */
+    width: 100%;
+}
+
+ul li {
+    display: flex;
+    padding: 2px;
+    color: #1b1533;
+    text-align: left;
+    list-style: none;
+    background-color: #EBDF8A;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.riscado {
+    text-decoration: line-through;
+}
+
+
