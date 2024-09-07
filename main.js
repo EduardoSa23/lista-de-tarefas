@@ -17,7 +17,7 @@ $(document).ready(function() {
         $(novoItem).appendTo('ul');
         $(novoItem).fadeIn(1000);
         $('#nome-tarefa').val('');
-        $('li').click(function() {
+        $(document).on('click', 'li', function() {
             $(this).toggleClass('riscado');
         });
       })
